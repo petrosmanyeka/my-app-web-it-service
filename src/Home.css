@@ -1,0 +1,55 @@
+.home{
+    background: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    box-shadow: inset 0 0 0 1000px  ;
+    
+    height: 100vh;
+    width: 100%;
+    
+    
+}
+.home> h1{
+    color: purple;
+
+margin-top: -100px;
+   
+    
+}
+
+
+.home >p{
+margin-top: 8px;
+color: white;
+font-size: 32px;
+}
+ .bt{
+    display: flex;
+    margin: 8px;
+    font-size: 20px;
+   
+    transform: scale(1.1);
+}
+.bt >.bt1{
+    padding: 0.3em;
+    background: white;
+    color: blue;
+    margin: 4px;
+
+}
+.bt >.bt2{
+    padding: 0.5em;
+    background: blue;
+    margin: 4px;
+    color: white;
+
+}
+.bt >.bt2:hover{
+    transform: scale(1.2);
+}
+.bt >.bt1:hover{
+    transform: scale(1.2);
+}

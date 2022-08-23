@@ -1,0 +1,45 @@
+.contai{
+    display: flex;
+    height: 60px;
+    align-items: center;
+   justify-content: space-between;
+    background: darkblue;
+}
+*{
+    margin: 0px;
+}
+.linkz{
+    color: gold;
+    font-weight: bold;
+    padding-left: 2em;
+    
+}
+.contai >.manu > a {
+    margin: 25px;
+    color: white;
+    transform: scale(1.2);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.contai >.manu > a:hover{
+    color: green;
+   
+}
+
+@media (max-width:700px) {
+    .contai >.manu{
+        position: absolute;
+        top: 60px;
+        display: flex;
+        flex-direction: column;
+        background: blue ;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding-left: 2em;
+    }
+    
+   
+    
+}

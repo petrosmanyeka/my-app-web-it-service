@@ -1,0 +1,8 @@
+.head >.shead{
+    display: flex;
+    margin: 3em;
+}
+.head >.chead{
+    display: flex;
+    margin: 3em;
+}

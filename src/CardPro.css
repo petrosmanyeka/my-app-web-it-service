@@ -1,0 +1,43 @@
+.titlez{
+    color: pink;
+}
+.theFul{
+    margin: 0.5em;
+    padding: 0.5em;
+    transition: 0.5s;
+}
+.theFul:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+.pricez{
+    font-weight: bold;
+    color: purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.bodyz{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.back{
+    background: whitesmoke;
+    padding: 0.5em;
+}
+button{
+    color: white;
+    background: blue;
+   
+   border: none;
+   border-radius: 5px;
+
+}
+.order{
+    text-align: center;
+
+}
+.order:hover{
+    color: red;
+    transform: scale(1.5);
+    
+}

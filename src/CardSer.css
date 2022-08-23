@@ -1,0 +1,22 @@
+.top{
+   
+    margin: 1em;
+    
+    
+}
+.bac{
+    background:#f5deb3;
+    padding: 1em;
+    border-radius: 2%;
+}
+.costz{
+    font-weight: bold;
+    color: purple;
+}
+.top:hover{
+    transform: scale(1.2);
+}
+.servz{
+    color: yellowgreen;
+    
+}
